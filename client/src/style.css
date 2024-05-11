@@ -1,0 +1,106 @@
+*{
+    background-color: cornflowerblue;
+}
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.books{
+    display: flex;
+    gap: 10px;
+    
+}
+.book{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+img{
+    width: 170px;
+    height: 250px;
+    object-fit: cover;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.delete{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191) ;
+    color: rgb(242, 100, 100);
+    border-radius: 10px;
+    width: 6em;
+}
+.delete :hover{
+    border: none;
+    padding: 3px 6px;
+    background-color: red;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191) ;
+    color: white;
+    border-radius: 10px;
+    width: 6em;
+}
+.update{
+    border: none;
+    border-radius: 8px;
+    width: 6em;
+    padding: 3px 6px;
+    background-color: rgb(56, 216, 56);
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191) ;
+    color: rgb(139, 139, 234);
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 350px;
+    height: 4vh;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.formButton{
+    letter-spacing: 2px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(244, 142, 74);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(69, 195, 47); ;
+}
+.btnAdd{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(69, 195, 47);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
